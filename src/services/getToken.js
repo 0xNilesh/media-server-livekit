@@ -6,7 +6,7 @@ export const getToken = async ({ userType }) => {
     }
   
     // Append userType as a query parameter to the URL
-    const url = `${import.meta.env.VITE_REACT_APP_SERVER_URL}token?userType=${userType}`;
+    const url = `${import.meta.env.VITE_REACT_APP_SERVER_URL}/token?userType=${userType}`;
   
     // Send a GET request with the userType parameter
     return await axios.get(url);
