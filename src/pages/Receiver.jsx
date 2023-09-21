@@ -9,7 +9,7 @@ export const Receiver = ({ room }) => {
 
   const fetchToken = async () => {
     const token = await getToken({ userType: "receiver" });
-    setToken(token);
+    setToken(token.data);
   }
 
   return (
