@@ -7,7 +7,7 @@ import { Room } from 'livekit-client';
 
 function App() {
   const room = new Room({
-    name: "spaces-v2"
+    name: "spacev2-demo"
   });
 
   console.log(room);

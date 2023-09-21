@@ -8,7 +8,7 @@ export const Sender = ({ room }) => {
   const [token, setToken] = useState(null);  
 
   const fetchToken = async () => {
-    const token = await getToken({ userType: "publisher" });
+    const token = await getToken({ userType: "sender" });
     setToken(token);
   }
 
