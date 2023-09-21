@@ -44,3 +44,21 @@
 .read-the-docs {
   color: #888;
 }
+
+.lk-audio-conference-stage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 24px;
+}
+
+.lk-audio-visualizer {
+  display: none;
+}
+
+.lk-participant-tile {
+  margin: 24px 0;
+  padding: 28px;
+  border: 1px solid #ffffff46;
+  border-radius: 12px;
+}
