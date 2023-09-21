@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AudioConference, LiveKitRoom, ConnectionState, RoomName, RoomAudioRenderer } from '@livekit/components-react';
 import { getToken } from '../services';
 
-const serverUrl = import.meta.env.VITE_REACT_APP_SERVER_URL;
+const serverUrl = 'wss://spacev2-demo-17wvllxz.livekit.cloud';
 
 export const Sender = ({ room }) => {
   const [token, setToken] = useState(null);  
