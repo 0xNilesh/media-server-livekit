@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -14,12 +13,12 @@ function App() {
 
   return (
     <Router>
-        <Routes>
-          {/* Define routes for pages */}
-          <Route path="/" element={<Home />} />
-          <Route path="/sender" element={<Sender />} />
-          <Route path="/receiver" element={<Receiver room={room} />} />
-        </Routes>
+      <Routes>
+        {/* Define routes for pages */}
+        <Route path="/" element={<Home />} />
+        <Route path="/sender" element={<Sender />} />
+        <Route path="/receiver" element={<Receiver room={room} />} />
+      </Routes>
     </Router>
   );
 }
